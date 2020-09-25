@@ -2,13 +2,10 @@
 #include <netdb.h>
 #include <arpa/inet.h>
 
-
 using std::cout;
 using std::endl;
 
-#define PORT    80      // HTTPのポート番号
-
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) {  // 入力例: $ ./a.out m.yahoo.co.jp
     struct in_addr addr;
     struct hostent *hp;
 
